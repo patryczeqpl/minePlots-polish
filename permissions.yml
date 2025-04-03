@@ -1,4 +1,5 @@
 #Konfiguracja elementów uprawnień działki w interfejsie GUI.
+#####Stworzone dla Szescianek.pl Przez patryczeq_pl
 permissions:
   MANAGE_VISIBILITY:
     material: PAPER

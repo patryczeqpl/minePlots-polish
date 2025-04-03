@@ -1,4 +1,6 @@
 #Konfiguracja lokalizacji powiadomień, gdy aktywność jest blokowana przez flagę.
+#####Stworzone dla Szescianek.pl Przez patryczeq_pl
+
 #Dostępne opcje: CHAT, ACTION_BAR
 notification-type: ACTION_BAR
 #Konfiguracja listy komend, które powinny być blokowane podczas flagi SETHOME.

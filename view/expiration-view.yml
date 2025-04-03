@@ -1,4 +1,6 @@
 #Inventory type for this gui.
+#####Stworzone dla Szescianek.pl Przez patryczeq_pl
+
 #Options: CHEST, WORKBENCH, HOPPER, DISPENSER, BREWING
 gui-type: HOPPER
 #Title of this gui.
