@@ -1,0 +1,263 @@
+#Konfiguracja lokalizacji powiadomień, gdy aktywność jest blokowana przez flagę.
+#Dostępne opcje: CHAT, ACTION_BAR
+notification-type: ACTION_BAR
+#Konfiguracja listy komend, które powinny być blokowane podczas flagi SETHOME.
+set-home-commands:
+- sethome
+- cmi:sethome
+- essentials:sethome
+#Opóźnienie między zmianą statusu flag
+#Wymaga restartu serwera
+flag-delay: 5s
+#Konfiguracja elementów flag działki w interfejsie.
+flags:
+- flag-type: PVP
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: DIAMOND_SWORD
+    display-name: '&4PVP'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość walki między graczami.'
+    texture: null
+    flags:
+    - HIDE_DESTROYS
+    - HIDE_ENCHANTS
+    enchantments:
+      KNOCKBACK: 2
+- flag-type: BUILD
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: STONE
+    display-name: '&2Budowanie'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość stawiania bloków.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: DESTROY
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: DIAMOND_PICKAXE
+    display-name: '&2Niszczenie'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość niszczenia bloków.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: INTERACT
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: CRAFTING_TABLE
+    display-name: '&2Interakcja'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość interakcji z blokami.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: ITEM_FRAME
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: ITEM_FRAME
+    display-name: '&2Ramka na przedmioty'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość ingerencji w ramki.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: CHEST
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: CHEST
+    display-name: '&2Skrzynia'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość otwierania skrzyń.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: EXPLOSION
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: TNT
+    display-name: '&2Eksplozja'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość eksplozji.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: LAVA
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: LAVA_BUCKET
+    display-name: '&2Interakcja z lawą'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość interakcji z lawą.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: WATER
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: WATER_BUCKET
+    display-name: '&2Interakcja z wodą'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość interakcji z wodą.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: IGNITE
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: FLINT_AND_STEEL
+    display-name: '&2Podpalenie'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość podpalania bloków.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: SNOW_MAN
+  delay: false
+  configurable: false
+  default-flag: true
+  flag-item:
+    material: SNOWBALL
+    display-name: '&2Bałwan'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość budowania bałwanów.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: ARMOR_STAND
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: ARMOR_STAND
+    display-name: '&2Stojak na zbroję'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość interakcji ze stojakami na zbroję.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: ENDER_PEARL
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: ENDER_PEARL
+    display-name: '&2Perła Endera'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość używania pereł Endera.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: SET_HOME
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: RED_BED
+    display-name: '&2Ustaw dom'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość ustawienia domu.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: DAMAGE_PASSIVE_MOBS
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: BEEF
+    display-name: '&2Zadawanie obrażeń pasywnym mobom'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość zadawania obrażeń pasywnym mobom.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: DAMAGE_AGGRESSIVE_MOBS
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: BEEF
+    display-name: '&2Zadawanie obrażeń agresywnym mobom'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość zadawania obrażeń agresywnym mobom.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: POTION
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: POTION
+    display-name: '&2Mikstura'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość używania mikstur.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: VEHICLE
+  delay: false
+  configurable: true
+  default-flag: true
+  flag-item:
+    material: MINECART
+    display-name: '&2Pojazd'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość używania pojazdów.'
+    texture: null
+    flags: []
+    enchantments: {}
+- flag-type: RECEIVE_DAMAGE_FROM_MOBS
+  delay: false
+  configurable: true
+  default-flag: false
+  flag-item:
+    material: GOLDEN_APPLE
+    display-name: '&2Otrzymywanie obrażeń od mobów'
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość otrzymywania obrażeń od mobów.'
+    texture: null
+    flags: []
+    enchantments: {}

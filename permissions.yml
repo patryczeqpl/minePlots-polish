@@ -1,0 +1,132 @@
+#Konfiguracja elementów uprawnień działki w interfejsie GUI.
+permissions:
+  MANAGE_VISIBILITY:
+    material: PAPER
+    display-name: Edycja widoczności bloku i hologramu działki
+    lore:
+    - ''
+    - '&7Uprawnienie: &e{hasPermission}'
+    - ''
+    - '&7Po przyznaniu tego uprawnienia, gracz będzie'
+    - '&7mógł ukrywać blok i hologram działki'
+    - ''
+    texture: null
+    flags: []
+    enchantments: {}
+  EXPIRATION_MANAGE:
+    material: PAPER
+    display-name: Zarządzanie wygaśnięciem działki
+    lore:
+    - ''
+    - '&7Uprawnienie: &e{hasPermission}'
+    - ''
+    - '&7Po przyznaniu tego uprawnienia gracz'
+    - '&7będzie mógł przedłużać ważność działki'
+    - ''
+    texture: null
+    flags: []
+    enchantments: {}
+  RENAME_PLOT:
+    material: PAPER
+    display-name: Zmiana nazwy działki
+    lore:
+    - ''
+    - '&7Uprawnienie: &e{hasPermission}'
+    - ''
+    - '&7Po przyznaniu tego uprawnienia, gracz'
+    - '&7będzie mógł zmienić nazwę działki'
+    - ''
+    texture: null
+    flags: []
+    enchantments: {}
+  BAN_MEMBERS:
+    material: PAPER
+    display-name: Zarządzanie banami działki
+    lore:
+    - ''
+    - '&7Uprawnienie: &e{hasPermission}'
+    - ''
+    - '&7Po przyznaniu tego uprawnienia, gracz będzie'
+    - '&7mógł banować/odbanowywać graczy na działce'
+    - ''
+    texture: null
+    flags: []
+    enchantments: {}
+  PANEL_OPEN:
+    material: PAPER
+    display-name: Otwieranie panelu działki
+    lore:
+    - ''
+    - '&7Uprawnienie: &e{hasPermission}'
+    - ''
+    - '&7Po przyznaniu tego uprawnienia, gracz'
+    - '&7będzie mógł otwierać panel działki'
+    - ''
+    texture: null
+    flags: []
+    enchantments: {}
+  INVITE_MEMBER:
+    material: PAPER
+    display-name: Zapraszanie graczy na działkę
+    lore:
+    - ''
+    - '&7Uprawnienie: &e{hasPermission}'
+    - ''
+    - '&7Po przyznaniu tego uprawnienia gracz'
+    - '&7będzie mógł zapraszać graczy na działkę'
+    - ''
+    texture: null
+    flags: []
+    enchantments: {}
+  PERMISSION_MANAGE:
+    material: PAPER
+    display-name: Edycja uprawnień członków działki
+    lore:
+    - ''
+    - '&7Uprawnienie: &e{hasPermission}'
+    - ''
+    - '&7Po przyznaniu tego uprawnienia, gracz będzie'
+    - '&7mógł edytować uprawnienia innych członków'
+    - ''
+    texture: null
+    flags: []
+    enchantments: {}
+  KICK_MEMBER:
+    material: PAPER
+    display-name: Wyrzucanie graczy z działki
+    lore:
+    - ''
+    - '&7Uprawnienie: &e{hasPermission}'
+    - ''
+    - '&7Po przyznaniu tego uprawnienia gracz'
+    - '&7będzie mógł wyrzucać graczy z działki'
+    - ''
+    texture: null
+    flags: []
+    enchantments: {}
+  UPGRADE_MANAGE:
+    material: PAPER
+    display-name: Zarządzanie ulepszeniami działki
+    lore:
+    - ''
+    - '&7Uprawnienie: &e{hasPermission}'
+    - ''
+    - '&7Po przyznaniu tego uprawnienia, gracz będzie'
+    - '&7mógł ulepszać działkę'
+    - ''
+    texture: null
+    flags: []
+    enchantments: {}
+  CHANGE_FLAG:
+    material: PAPER
+    display-name: Zmiana flag działki
+    lore:
+    - ''
+    - '&7Uprawnienie: &e{hasPermission}'
+    - ''
+    - '&7Po przyznaniu tego uprawnienia gracz'
+    - '&7będzie mógł zmieniać flagi działki'
+    - ''
+    texture: null
+    flags: []
+    enchantments: {}

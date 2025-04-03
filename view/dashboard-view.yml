@@ -1,0 +1,155 @@
+#Inventory type for this gui.
+#Options: CHEST, WORKBENCH, HOPPER, DISPENSER, BREWING
+gui-type: CHEST
+#Title of this gui.
+title: Dashboard
+#Rows of this gui. Available only for CHEST type.
+rows: 5
+#Fill the gui?
+filling-gui: true
+#Fill item for this gui.
+fill-item:
+  material: BLACK_STAINED_GLASS_PANE
+  display-name: ''
+  lore: []
+  texture: null
+  flags: null
+  enchantments: null
+#Items for this gui.
+#Available functions: 
+# - FLAG_CONFIGURATION
+# - MEMBERS_MANAGEMENT
+# - EXPIRATION_PLOT
+# - UPGRADING_PLOT
+# - HIDE_BLOCK
+# - HIDE_HOLOGRAM
+# - DELETE_PLOT
+# - RENAME_PLOT
+# - VISUALIZE_PLOT
+# - BACK_TO_DASHBOARD
+# - BANS_PLOT
+# - NONE
+items:
+- slot: 10
+  material: PLAYER_HEAD
+  display-name: ' &6&l• &aFlagi działki &6&l• '
+  lore:
+  - ' '
+  - ' &8[&a#&8] &7Flagi: &f{flags}'
+  - ' '
+  - ' &8» &7Kliknij aby zarządzać flagami.'
+  function: FLAGS_CONFIGURATION
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU5ZThkNDE5NmZlYTgyNzAyNWMyOTI3YTZmY2Q2ZTk4ZDAzMDA1NzM3MTIzOGE3N2FlNGNkZGViY2U4NjQ3NyJ9fX0=
+  flags: null
+  enchantments: null
+- slot: 11
+  material: PLAYER_HEAD
+  display-name: ' &6&l• &aZarządzanie członkami &6&l• '
+  lore:
+  - ' '
+  - ' &8[&a#&8] &7Członkowie: &f{members}&8/&f{membersSlots}'
+  - ' '
+  - ' &8» &7Kliknij aby zarządzać członkami.'
+  function: MEMBERS_MANAGEMENT
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk3YjM3Y2Y3NGE4ZTM3NTI0ZTJlZGNkNjQzMjczZGNlOTMxZWE2OGMwNzc5MWYzNmQ1NzJkODAwNDIyODdhNiJ9fX0=
+  flags: null
+  enchantments: null
+- slot: 13
+  material: PLAYER_HEAD
+  display-name: ' &6&l• &aInformacje o działce &6&l•'
+  lore:
+  - ' '
+  - ' &8[&a#&8] &7ID: &f{id}'
+  - ' &8[&a#&8] &7Właściciel: &f{owner}'
+  - ' &8[&a#&8] &7Nazwa: &f{name}'
+  - ' &8[&a#&8] &7Rozmiar: &f{size}'
+  function: NONE
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQzNmMzMjkxZmUwMmQxNDJjNGFmMjhkZjJmNTViYjAzOTdlMTk4NTU0ZTgzNDU5OTBkYmJjZDRjMTQwMzE2YiJ9fX0=
+  flags: null
+  enchantments: null
+- slot: 15
+  material: PLAYER_HEAD
+  display-name: ' &6&l• &aPrzedłużenie działki &6&l•'
+  lore:
+  - ' '
+  - ' &8[&a#&8] &7Wygasa: &f{expireAt}'
+  - ' &8[&a#&8] &7Utworzono: &f{createdAt}'
+  - ' '
+  - ' &8» &7Kliknij aby przedłużyć.'
+  function: EXPIRATION_PLOT
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxNWI3NzViMjExZTViMTRjOWY0N2NmZGI0ZTY0Y2QzOGIyZTRjODc1NTY5ZjBkMWJjMzQ2OGU3YTIzM2YyMyJ9fX0=
+  flags: null
+  enchantments: null
+- slot: 16
+  material: PLAYER_HEAD
+  display-name: ' &6&l• &aUlepszenia działki &6&l•'
+  lore:
+  - ' '
+  - ' &8[&a#&8] &7Rozmiar &f{size}'
+  - ' &8[&a#&8] &7Miejsca dla członków: &f{membersSlots}'
+  - ' '
+  - ' &8» &7Kliknij aby ulepszyć działkę.'
+  function: UPGRADING_PLOT
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5M2M4OWQxZGY2Nzk4NTRmMzNjMjIxNTI0N2I2NzZhMTU5ZDUzOTUzOTJkMGM2MWI4NDc2ZjgxM2Q5ZWRiMCJ9fX0=
+  flags: null
+  enchantments: null
+- slot: 28
+  material: PLAYER_HEAD
+  display-name: ' &6&l• &aUkryj blok &6&l•'
+  lore:
+  - ' '
+  - ' &8» &7Kliknij aby ukryć blok działki.'
+  function: HIDE_BLOCK
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJkN2E3NTFlYjA3MWUwOGRiYmM5NWJjNWQ5ZDY2ZTVmNTFkYzY3MTI2NDBhZDJkZmEwM2RlZmJiNjhhN2YzYSJ9fX0=
+  flags: null
+  enchantments: null
+- slot: 29
+  material: PLAYER_HEAD
+  display-name: ' &6&l• &aUkryj hologram &6&l•'
+  lore:
+  - ' '
+  - ' &8» &7Kliknij aby ukryć hologram działki.'
+  function: HIDE_HOLOGRAM
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ1OWMxNGFmMDMwMjJhOWY0NjI5MTAzNzViMDUwZTAzMTNkNmI5NmM3YjBhYWIxNjhiZGU5ZmIwMDA2NjQ0MCJ9fX0=
+  flags: null
+  enchantments: null
+- slot: 31
+  material: PLAYER_HEAD
+  display-name: ' &6&l• &cUsuń &6&l•'
+  lore:
+  - ' '
+  - ' &8» &7Kliknij aby usunąć działkę.'
+  function: DELETE_PLOT
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ2NWY4MGJmMDJiNDA4ODg1OTg3YjAwOTU3Y2E1ZTllYjg3NGMzZmE4ODMwNTA5OTU5N2EzMzNhMzM2ZWUxNSJ9fX0=
+  flags: null
+  enchantments: null
+- slot: 33
+  material: PLAYER_HEAD
+  display-name: ' &6&l• &aZmień nazwę &6&l•'
+  lore:
+  - ' '
+  - ' &8» &7Kliknij aby zmienić nazwę działki.'
+  function: RENAME_PLOT
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZhYTkzNGI0OTU4OTlkYmE5MTM1Mzk3MGQ0MzVmNjE2MTU3MjdkMjEwMGZjNmMzMWU2ZTE1YjkzNTljZGJhIn19fQ==
+  flags: null
+  enchantments: null
+- slot: 34
+  material: PLAYER_HEAD
+  display-name: ' &6&l• &aWizualizacja terenu &6&l•'
+  lore:
+  - ' '
+  - ' &8» &7Kliknij aby zobaczyć wizualizację działki.'
+  function: VISUALIZE_PLOT
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2MzNzNiNjBjNDgwNGU4Zjg1MWJhODgyOWJjMDI1MGYyZGIwM2Q1ZDllOWEwMTBjYzAzYTJkMjU1YWQ3ZmMxNSJ9fX0=
+  flags: null
+  enchantments: null
+- slot: 18
+  material: PLAYER_HEAD
+  display-name: ' &6&l• &cLista banów &6&l•'
+  lore:
+  - ' '
+  - ' &8» &7Kliknij aby zobaczyć wszystkie bany'
+  function: BANS_PLOT
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+  flags: null
+  enchantments: null

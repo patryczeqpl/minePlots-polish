@@ -1,0 +1,510 @@
+#########################
+#    PLAYER COMMANDS
+#########################
+player-commands:
+  #Configuration for main plugin command.
+  plot-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: plot
+    #Command aliases.
+    aliases:
+    - plots
+    - dzialka
+    #Command description.
+    description: Main command for plots.
+    #Command permission.
+    permission: plots.command
+    #Command usage.
+    usage: /plot
+  #Configuration subcommand for accept invite to plot.
+  accept-invite-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: accept
+    #Command aliases.
+    aliases:
+    - acceptInvite
+    - akceptuj
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.accept
+    #Command usage.
+    usage: /plot accept <id>
+  #Configuration subcommand for plot info.
+  plot-info-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: info
+    #Command aliases.
+    aliases:
+    - plotInfo
+    - informacje
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.info
+    #Command usage.
+    usage: /plot info
+  #Configuration subcommand for preview plot crafting.
+  crafting-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: crafting
+    #Command aliases.
+    aliases:
+    - create
+    - utworz
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.crafting
+    #Command usage.
+    usage: /plot crafting
+  #Configuration subcommand for invite member to plot.
+  invite-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: invite
+    #Command aliases.
+    aliases:
+    - zapros
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.invite
+    #Command usage.
+    usage: /plot invite <player>
+  #Configuration subcommand for kick member from plot.
+  kick-member-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: kick
+    #Command aliases.
+    aliases:
+    - wyrzuc
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.kick
+    #Command usage.
+    usage: /plot kick <player>
+  #Configuration subcommand for leave plot.
+  leave-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: leave
+    #Command aliases.
+    aliases:
+    - opusc
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.leave
+    #Command usage.
+    usage: /plot leave
+  #Configuration subcommand for check plots limits.
+  limits-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: limits
+    #Command aliases.
+    aliases:
+    - limity
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.limits
+    #Command usage.
+    usage: /plot limits
+  #Configuration subcommand for open plot dashboard.
+  panel-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: panel
+    #Command aliases.
+    aliases:
+    - dashboard
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.limits
+    #Command usage.
+    usage: /plot dashboard
+  #Configuration subcommand for close plot territory.
+  plot-close-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: close
+    #Command aliases.
+    aliases:
+    - plotClose
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.close
+    #Command usage.
+    usage: /plot close
+  #Configuration subcommand for open plot territory.
+  plot-open-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: open
+    #Command aliases.
+    aliases:
+    - plotOpen
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.open
+    #Command usage.
+    usage: /plot open
+  #Configuration subcommand for open plots homes gui.
+  plots-home-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: home
+    #Command aliases.
+    aliases:
+    - homes
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.home
+    #Command usage.
+    usage: /plot home
+  #Configuration subcommand for enable plot visualization.
+  visualize-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: visualize
+    #Command aliases.
+    aliases:
+    - wizualizacja
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.visualize
+    #Command usage.
+    usage: /plot visualize
+  #Configuration subcommand for set plot home.
+  set-home-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: sethome
+    #Command aliases.
+    aliases:
+    - ustawdom
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.sethome
+    #Command usage.
+    usage: /plot sethome
+  #Configuration subcommand for enable or disable fly on plot.
+  fly-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: fly
+    #Command aliases.
+    aliases:
+    - latanie
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.fly
+    #Command usage.
+    usage: /plot fly
+  #Configuration subcommand for search and teleport plots warps.
+  warps-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: warps
+    #Command aliases.
+    aliases:
+    - warp
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.warps
+    #Command usage.
+    usage: /plot warps
+  #Configuration subcommand for set plot warp.
+  warp-create-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: warpSet
+    #Command aliases.
+    aliases:
+    - warpCreate
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.warpSet
+    #Command usage.
+    usage: /plot warpSet <name>
+  #Configuration subcommand for delete plot warp.
+  warp-delete-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: warpDelete
+    #Command aliases.
+    aliases:
+    - deleteWarp
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.warpDelete
+    #Command usage.
+    usage: /plot warpDelete <name>
+  #Configuration subcommand for ban player in plot.
+  ban-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: ban
+    #Command aliases.
+    aliases:
+    - plotBan
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.ban
+    #Command usage.
+    usage: /plot ban <player> <reason>
+  #Configuration subcommand for unban player from plot.
+  unban-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: unban
+    #Command aliases.
+    aliases:
+    - plotUnban
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.unban
+    #Command usage.
+    usage: /plot unban <player>
+  #Configuration subcommand for ranking plot.
+  ranking-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: ranking
+    #Command aliases.
+    aliases: []
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.ranking
+    #Command usage.
+    usage: /plot ranking
+#########################
+# ADMINISTRATOR COMMANDS
+#########################
+admin-commands:
+  #Configuration for main admin plugin command.
+  admin-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: plotadmin
+    #Command aliases.
+    aliases:
+    - plotsadmin
+    - pa
+    #Command description.
+    description: Main plots command for administrator.
+    #Command permission.
+    permission: plots.command.admin
+    #Command usage.
+    usage: /plotadmin
+  #Configuration subcommand for add member to plot.
+  add-member-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: add
+    #Command aliases.
+    aliases:
+    - addMember
+    - dodaj
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.admin.add
+    #Command usage.
+    usage: /plotadmin add <player>
+  #Configuration subcommand for kick member from plot.
+  kick-member-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: kick
+    #Command aliases.
+    aliases:
+    - kickMember
+    - wyrzuc
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.admin.kick
+    #Command usage.
+    usage: /plotadmin kick <player>
+  #Configuration subcommand for ban player from plot.
+  ban-player-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: ban
+    #Command aliases.
+    aliases:
+    - plotBan
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.admin.ban
+    #Command usage.
+    usage: /plotadmin ban <player> <reason>
+  #Configuration subcommand for unban player from plot.
+  unban-player-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: unban
+    #Command aliases.
+    aliases:
+    - plotUnban
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.admin.unban
+    #Command usage.
+    usage: /plotadmin unban <player>
+  #Configuration subcommand for give plot block.
+  give-plot-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: give
+    #Command aliases.
+    aliases:
+    - givePlot
+    - dajDzialke
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.admin.give
+    #Command usage.
+    usage: /plotadmin give <player> <amount> [preset]
+  #Configuration subcommand for check players plots.
+  plots-check-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: plots
+    #Command aliases.
+    aliases:
+    - plotsHome
+    - dzialki
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.admin.plots
+    #Command usage.
+    usage: /plotadmin plots <player>
+  #Configuration subcommand for reload plugin configs.
+  reload-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: reload
+    #Command aliases.
+    aliases:
+    - configsReload
+    - przeladuj
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.admin.reload
+    #Command usage.
+    usage: /plotadmin reload
+  #Configuration subcommand for plot extension
+  expiration-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: expiration
+    #Command aliases.
+    aliases:
+    - expirationPlot
+    - przedluz
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.admin.expiration
+    #Command usage.
+    usage: /plotadmin expiration <time> <unit>
+  #Configuration subcommand for economy item
+  economy-item-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: economyItem
+    #Command aliases.
+    aliases: []
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.admin.economyItem
+    #Command usage.
+    usage: /plotadmin economyItem <player> <amount>
+  #Configuration subcommand for set flags
+  set-flag-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: setflag
+    #Command aliases.
+    aliases: []
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.admin.setflag
+    #Command usage.
+    usage: /plotadmin setflag <flag> <true/false>
+  #Configuration subcommand for plot delete
+  delete-command:
+    #Should this command be enabled?
+    enabled: true
+    #Command name.
+    name: delete
+    #Command aliases.
+    aliases: []
+    #Command description.
+    description: ''
+    #Command permission.
+    permission: plots.command.admin.delete
+    #Command usage.
+    usage: /plotadmin delete [id]
